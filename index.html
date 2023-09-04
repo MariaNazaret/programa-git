@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | Sistema Facturación</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script>
+        function redirectToSistemaPage() {
+            window.location.href = "sistema";
+        }
+    </script>
+</head>
+<body>
+    <section id="container">
+        <form>
+            <h3>Iniciar Sesión</h3>
+            <img src="img/imagen1.jpg" alt="Login">
+            <input type="text" name="usuario" placeholder="Usuario">
+            <input type="password" name="clave" placeholder="Contraseña">
+            <!-- Llamamos a la función redirectToSistemaPage() cuando se hace clic en el botón -->
+            <input type="button" value="INGRESAR" onclick="redirectToSistemaPage()">
+        </form>
+    </section>
+</body>
+</html>
+En el código anterior, he agregado una función llamada redirectToPage() que se ejecuta cuando se hace clic en el botón "INGRESAR". Esta función utliza window.location.href para redirigir al usuario a la página especificada. 
+
+
+
+
